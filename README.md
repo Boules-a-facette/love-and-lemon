@@ -9,7 +9,6 @@ GitHub Pages. La racine du dépôt est la racine du site.
 | Page | URL |
 |---|---|
 | Accueil | `/` |
-| Nous | `/decoratrice-mariage-wedding-planner-savoie-chambery-annecy/` |
 | Nos Offres | `/decoration-mariage-savoie-haute-savoie-chambery-annecy-grenoble-decoratrice-mariage/` |
 | Jolies Photos | `/decoratrice-organisatrce-mariage-aix-chambery-annecy-savoie/` |
 | Bar à Fleurs | `/bar-a-fleurs-animation-cocktail-vin-dhonneur-mariage-savoie-haute-savoie-isere/` |
@@ -27,6 +26,12 @@ casser au référencement.
 
 - `assets/` — ce que le site sert : images (WebP), CSS, JS. Les 1149 médias sont les variantes exactes
   que servait `wp-content/uploads/` (recadrages compris), converties en WebP.
+- **La page « Nous » a été retirée** (décision du 29/09/2026) : son URL d'origine
+  `/decoratrice-mariage-wedding-planner-savoie-chambery-annecy/` était indexée et liée depuis le menu
+  de toutes les pages. Elle n'est plus dans le menu ni dans le sitemap, et son URL sert une page de
+  **redirection vers `/la-team/`** — pas un 404. Son contenu propre (l'histoire de la marque et les
+  encarts « ON AIME » / « ON GÈRE » / « Transparence ») n'a pas été reporté ailleurs : les deux
+  portraits (Mallory, Sandrine) figurent déjà sur « La team ».
 - **Formulaires** (Contact et Devis) : l'envoi se fait par `mailto:` — le site n'envoie rien lui-même,
   il ouvre le logiciel de messagerie du visiteur. Destinataires : `hello@love-and-lemon.fr` (contact)
   et `sweetpaper.fairepart@gmail.com` (devis).
